@@ -1,0 +1,415 @@
+@font-face{
+	font-family: 'Ubuntu';
+	src:url(../fonts/Ubuntu-R.ttf) format('truetype');
+}
+.custom-container{
+	margin-top:60px;
+}
+.no-margin{
+	margin: 0px;
+}
+.center-margin{
+	margin: 0px auto;
+}
+
+.center-margin50{
+	margin: 50px auto;
+}
+.form-control{
+	width: 70%;
+	margin: 5px auto;
+	height: 40px;
+	border: 1px solid lightseagreen;
+	font-size: 15px;
+}
+@media (max-width: 462px){
+	.form-control{
+		width: 100%;
+	}
+}
+
+body{
+	background: url("../img/background.jpg") no-repeat fixed;
+	background-size: cover;
+
+}
+.navbar-custom{
+	background: transparent;
+	border: hidden;
+	margin-bottom: 0px;
+	//border:1px solid red;
+	min-height:50px;
+}
+.navbar-custom1{
+	background:linear-gradient(-20deg,khaki 10%,floralwhite 50%,skyblue 90%);
+	transition:650ms;
+	box-shadow:1px 1px 1px rgba(0,0,0,0.6);
+	border: hidden;
+	margin-bottom: 0px;
+	//border:1px solid red;
+	min-height:50px;
+	position: fixed;
+}
+.font-custom{font-family:'Ubuntu';}
+
+.custom-modal{
+	background: url("../img/background.jpg") no-repeat;
+	background-size: cover;
+}
+.custom-row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.text10{font-size: 10px;}
+.text12{font-size: 12px;}
+.text13{font-size: 13px;}
+.text14{font-size: 14px;}
+.text15{font-size: 15px;}
+.text-16{font-size: 16px;}
+.text-17{font-size: 17px;}
+.text-18{font-size: 18px;}
+.text-19{font-size: 19px;}
+.text20{font-size: 20px;}
+.text22{font-size: 22px;}
+.text40{font-size: 40px;}
+
+.boldfont{font-weight: bold;}
+.normalfont{font-weight: normal;}
+
+.underline-text{text-decoration: underline;}
+
+.pad-1{padding: 1px;}
+.pad-2{padding: 2px;}
+.pad-3{padding: 3px;}
+.pad-4{padding: 4px;}
+.pad-5{padding: 5px;}
+.pad-6{padding: 6px;}
+.pad-7{padding: 7px;}
+.pad-8{padding: 8px;}
+.pad-9{padding: 9px;}
+.pad-10{padding: 10px;}
+
+
+.btn:focus{
+	outline: none;
+}
+
+
+input[type="submit"]{
+	background:#ce4242;
+	border-radius: 0px;
+}
+
+.custom-hr{
+	border: 0.005em solid black; 
+	margin:5px auto;
+}
+.custom-img{
+	padding: 5px; 
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
+	background-color: white;
+	border-radius: 10px;
+}
+.event{
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+}
+.event-image{
+  background:white;
+  padding: 5px;
+  min-height: 250px;
+  border-radius: 20px;
+  border: 1px solid red;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.event-number{
+  position: absolute;
+  margin-top: 5px;
+  padding: 7px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.4);
+}
+.event-image img{
+  width: 220px;
+  height: 220px;
+  margin: 20px auto;
+  padding: 10px;
+  //border: 1px solid blue;
+  //box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.4);
+}
+.event-name{
+	text-align: center;
+	margin: 0px auto;
+	color: floralwhite;
+	padding: 5px;
+}
+.event-name button{
+	width: 200px;
+	font-size: 20px;
+	margin: 10px auto;
+	padding-left: 20px;
+  padding-right: 20px;
+  border: hidden;
+}
+.event-name button:hover{
+  background-color:rgba(0,0,0,0.7);
+}
+.down-img{
+	position:absolute; right: 30px; bottom: 30px;
+	z-index: 998;
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.6);
+	border-radius: 30px;
+	cursor: pointer;
+}
+.img-icon{
+  	padding: 10px;
+  	background: #000;
+  	border-radius: 20%;
+  	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.9);
+}
+.eat-code-sleep{
+	//border: 1px solid #000;
+	cursor: text;
+	box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.4);
+}
+.bgcolor-seagreen{
+	background: seagreen;
+}
+.bgcolor-orange{
+	background: orange;
+}
+.bgcolor-red{
+	background: #f55656;
+}
+
+.color-black{
+	color: #000;
+}
+.color-white{
+	color: #fff;
+}
+.boxshadow{
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.5);
+}
+
+.timer-clock{
+  padding: 4px;
+  width:120px;
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.5);
+  font-family: 'Algerian';
+  font-size: 25px;
+  text-align: center;
+}
+
+#showDetails-1 p,#showDetails-2 p,#showDetails-3 p{
+  font-size: 17px;
+}
+
+
+#feedback-form{
+  padding: 10px;
+}
+
+#feedback-form textarea,#round-1-form textarea,#round-2-form textarea{
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.4);
+  background: transparent;
+  resize: none;
+  font-family: 'Ubuntu';
+  color: #000;
+}
+#feedback-form input,#round-1-form input,#round-2-form input{
+  margin: 10px auto;
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  padding: 5px 20px;
+
+}
+
+
+/* ---------- Menu Design -----------------*/
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 14px;
+  position: relative;
+}
+#cssmenu {
+  
+  width:190px;
+  position: fixed;
+  height: 100%;
+  z-index: 99;
+  margin-top:50px;
+  border-right: 1px solid rgba(3, 100, 143,0.8);
+  padding-left: 5px;
+}
+#cssmenu ul{
+ 
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    z-index: 99;
+    font-family: 'Ubuntu';
+}
+#cssmenu a {
+  line-height: 1.3;
+}
+#cssmenu > ul > li:first-child {
+  margin-top:10px ;
+  border-radius: 0px;
+  background: linear-gradient(40deg,yellow 10%, red 90%);
+}
+#cssmenu > ul > li:first-child > a {
+  padding: 15px 10px;
+  border: none;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+  text-transform: uppercase;
+}
+#cssmenu > ul > li:first-child > a > img {
+  float: none;
+}
+#cssmenu > ul > li:first-child > a > span {
+  padding: 0;
+  display: block;
+}
+#cssmenu > ul > li:first-child:hover {
+ background: linear-gradient(-30deg,yellow 10%, red 90%);
+  margin-left: 10px;
+}
+#cssmenu > ul > li {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: rgba(3, 100, 143,0.8);
+  transition: all 300ms ease-in-out;
+  //box-shadow: 1px 1px 1px black;
+}
+#cssmenu > ul > li:hover {
+
+  margin-left: 1px;
+ // background: -moz-linear-gradient( rgba(3, 100, 143,0.75)  0%,  rgba(3, 100, 143,0.75)  100%);
+ // background: -webkit-linear-gradient( rgba(3, 100, 143,0.75) , rgba(3, 100, 143,0.75)  100%);
+ // background: linear-gradient( rgba(3, 100, 143,0.8) 0%,  rgba(3, 100, 143,0.8) 0%);
+}
+#cssmenu > ul > li > a {
+  font-size: 13px;
+  display: block;
+  color: #fff;
+  border-top: none;
+  padding: 15px 10px;
+  text-align: center;
+
+}
+#cssmenu > ul > li > a > img {
+  width: 20px;
+  height:20px;
+  float:left;
+}
+#cssmenu > ul > li > a > span {
+  padding: 12px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: 'Ubuntu';
+}
+
+#cssmenu > ul > li > a:hover {
+  color: #fff; 
+}
+#cssmenu > ul > li:first-child.active {
+ border-bottom: none;
+ margin-left: 10px;
+}
+#cssmenu > ul > li.active {
+ border-bottom: none;
+}
+
+
+/*----------- Menu toggle design ------------------*/
+
+#nav-toggle { position: absolute; top: 20px; left: 10px;}
+
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px;}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  height: 3px;
+  width: 30px;
+  background-color:#09C;
+   position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 600ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+
+/*-----------Ending menu toggle design ------------------*/
+
+
+/* ---------- Media Screen  Menu Design -----------------*/
+@media (max-width: 991px) {
+  #cssmenu{
+   left: -200px;
+    transition: all 600ms ease-in-out;
+    background:url(../img/background.jpg);
+  }
+ }
+#cssmenu.menuShow{
+   left: 0px;
+  transition: all 600ms ease-in-out;
+}
+/* ----------  End of Media Screen Menu Design -----------------*/
+
+.container
+{
+	margin-top: 70px; 
+	position: absolute;
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 84.35%;
+    margin-left: 200px;
+  }
+  .nav li a{
+  	font-size: 17px;
+  }
+}
